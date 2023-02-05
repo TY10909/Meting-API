@@ -1,0 +1,30 @@
+{
+  "name": "meting-backend-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "build:all": "node esbuild.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "author": "xizeyoupan",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild-plugin-resolve": "^1.0.3",
+    "esbuild-plugin-text-replace": "^1.2.0"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@hono/node-server": "^0.2.4",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "esbuild": "0.17.5",
+    "hono": "^2.7.5",
+    "nanoid": "^4.0.0"
+  }
+}
